@@ -18,6 +18,7 @@ namespace Selenium3_7_VisualStudio2017
         {
             using (var driver = new FirefoxDriver())
             {
+                // Some change
         
                 driver.Manage().Window.Maximize();
 
