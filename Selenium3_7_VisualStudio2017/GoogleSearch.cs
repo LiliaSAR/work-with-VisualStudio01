@@ -22,7 +22,8 @@ namespace Selenium3_7_VisualStudio2017
         
                 driver.Manage().Window.Maximize();
 
-                driver.Navigate().GoToUrl("http://10.0.0.11/SocialDoc/Account/Login");
+                //driver.Navigate().GoToUrl("http://10.0.0.11/SocialDoc/Account/Login");
+                driver.Navigate().GoToUrl("http://93.94.217.210/SocialDoc/Account/Login");
 
                 var emailInput = driver.FindElementById("Email");
 
